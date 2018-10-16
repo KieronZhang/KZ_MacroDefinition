@@ -19,9 +19,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = KZ_ColorFromRGB(0x666666);
     
-    KZ_DebugLog(@"KZ_SCREEN_WIDTH %f", KZ_SCREEN_WIDTH);
-    KZ_DebugLog(@"KZ_SCREEN_HEIGHT %f", KZ_SCREEN_HEIGHT);
-    KZ_DebugLog(@"KZ_SCREEN_RADIO %f", KZ_SCREEN_RADIO);
+    KZ_DebugLog(@"KZ_Screen_Width %f", KZ_Screen_Width);
+    KZ_DebugLog(@"KZ_Screen_Height %f", KZ_Screen_Height);
+    KZ_DebugLog(@"KZ_Screen_Radio %f", KZ_Screen_Radio);
     
     KZ_DebugLog(@"KZ_Status_Height %d", KZ_Status_Height);
     KZ_DebugLog(@"KZ_TitleBar_Height %d", KZ_TitleBar_Height);

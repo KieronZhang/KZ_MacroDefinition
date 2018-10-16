@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_MacroDefinition'
-    s.version = '0.1.1'
+    s.version = '0.1.2'
     s.summary = 'iOS & macOS Macro Definition.'
     s.homepage = 'https://github.com/KieronZhang/KZ_MacroDefinition'
     s.license = {:type => 'MIT', :file => 'LICENSE'}

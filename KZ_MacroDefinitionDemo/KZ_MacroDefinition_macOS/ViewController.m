@@ -16,8 +16,8 @@
     self.view.wantsLayer = YES;
     self.view.layer.backgroundColor = KZ_ColorFromRGB(0x666666).CGColor;
     
-    KZ_DebugLog(@"KZ_SCREEN_WIDTH %f", KZ_SCREEN_WIDTH);
-    KZ_DebugLog(@"KZ_SCREEN_HEIGHT %f", KZ_SCREEN_HEIGHT);
+    KZ_DebugLog(@"KZ_Screen_Width %f", KZ_Screen_Width);
+    KZ_DebugLog(@"KZ_Screen_Height %f", KZ_Screen_Height);
     
     KZ_DebugLog(@"KZ_CurrentLanguage %@", KZ_CurrentLanguage);
 }
