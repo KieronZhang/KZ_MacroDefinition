@@ -18,8 +18,8 @@
 		AE356B6D20948833003A98E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE356B6C20948833003A98E3 /* Assets.xcassets */; };
 		AE356B7020948833003A98E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE356B6E20948833003A98E3 /* Main.storyboard */; };
 		AE356B7320948833003A98E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE356B7220948833003A98E3 /* main.m */; };
-		AEF94D702175E6120063EE69 /* KZ_MacroDefinition_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D6F2175E6120063EE69 /* KZ_MacroDefinition_iOS.framework */; };
-		AEF94D722175E61B0063EE69 /* KZ_MacroDefinition_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D712175E61B0063EE69 /* KZ_MacroDefinition_macOS.framework */; };
+		AEF94D8C2176E1B40063EE69 /* KZ_MacroDefinition_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D8B2176E1B40063EE69 /* KZ_MacroDefinition_iOS.framework */; };
+		AEF94D8E2176E1B80063EE69 /* KZ_MacroDefinition_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D8D2176E1B80063EE69 /* KZ_MacroDefinition_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		AE356B7120948833003A98E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE356B7220948833003A98E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE356B7420948833003A98E3 /* KZ_MacroDefinition_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_MacroDefinition_macOS.entitlements; sourceTree = "<group>"; };
-		AEF94D6F2175E6120063EE69 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
-		AEF94D712175E61B0063EE69 /* KZ_MacroDefinition_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MacroDefinition_macOS.framework; sourceTree = "<group>"; };
+		AEF94D8B2176E1B40063EE69 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
+		AEF94D8D2176E1B80063EE69 /* KZ_MacroDefinition_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_MacroDefinition_macOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D702175E6120063EE69 /* KZ_MacroDefinition_iOS.framework in Frameworks */,
+				AEF94D8C2176E1B40063EE69 /* KZ_MacroDefinition_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF94D722175E61B0063EE69 /* KZ_MacroDefinition_macOS.framework in Frameworks */,
+				AEF94D8E2176E1B80063EE69 /* KZ_MacroDefinition_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		AE356B78209488CD003A98E3 /* MacroDefinition */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D6F2175E6120063EE69 /* KZ_MacroDefinition_iOS.framework */,
+				AEF94D8B2176E1B40063EE69 /* KZ_MacroDefinition_iOS.framework */,
 			);
 			path = MacroDefinition;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 		AE356B7B209488D5003A98E3 /* MacroDefinition */ = {
 			isa = PBXGroup;
 			children = (
-				AEF94D712175E61B0063EE69 /* KZ_MacroDefinition_macOS.framework */,
+				AEF94D8D2176E1B80063EE69 /* KZ_MacroDefinition_macOS.framework */,
 			);
 			path = MacroDefinition;
 			sourceTree = "<group>";

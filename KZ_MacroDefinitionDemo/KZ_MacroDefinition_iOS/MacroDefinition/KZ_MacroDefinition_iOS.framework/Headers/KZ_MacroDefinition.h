@@ -13,7 +13,7 @@
 
 //-------------------获取设备大小-------------------------
 //标准高度
-#if __IPHONE_OS_VERSION >= __IPHONE_11_0
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_11_0
 #define KZ_Status_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.top
 #define KZ_Bottom_Height [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom
 #else
